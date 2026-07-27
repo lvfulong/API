@@ -21,4 +21,11 @@
 | `my.offHide` | [链接](https://opendocs.alipay.com/mini-game/08v6wb?pathHash=96884371) |
 
 ## 应用级事件
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.onError` | [链接](https://opendocs.alipay.com/mini-game/098k8n?pathHash=a32773c0) |
+| `my.onUnhandledRejection` | [链接](https://opendocs.alipay.com/mini-game/88918e2b_my.onUnhandledRejection?pathHash=b1bfb3ef) |
+| `my.offUnhandledRejection` | [链接](https://opendocs.alipay.com/mini-game/c302f268_my.offUnhandledRejection?pathHash=a41360c0) |
+
 # 开放能力 API
