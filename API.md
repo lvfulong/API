@@ -52,6 +52,19 @@
 | `setTimeout` | [链接](https://opendocs.alipay.com/mini-game/08uo7u?pathHash=5ed2888c) |
 
 ## 渲染
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `Canvas 概览` | [链接](https://opendocs.alipay.com/mini-game/0gkuic?pathHash=ba991885) |
+| `Canvas.getContext` | [链接](https://opendocs.alipay.com/mini/api/Canvas.getContext) |
+| `Image` | [链接](https://opendocs.alipay.com/mini/api/Image) |
+| `requestAnimationFrame` | [链接](https://opendocs.alipay.com/mini/api/requestAnimationFrame) |
+| `RenderingContext` | [链接](https://opendocs.alipay.com/mini/api/RenderingContext) |
+| `my.createCanvas` | [链接](https://opendocs.alipay.com/mini/api/my.createCanvas) |
+| `my.createImage` | [链接](https://opendocs.alipay.com/mini/api/my.createImage) |
+| `my.loadFont` | [链接](https://opendocs.alipay.com/mini/api/my.loadFont) |
+| `my.setPreferredFramesPerSecond` | [链接](https://opendocs.alipay.com/mini/api/my.setPreferredFramesPerSecond) |
+
 ## 性能
 ## 交互
 ## 网络
