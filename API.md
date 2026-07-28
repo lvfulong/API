@@ -43,6 +43,14 @@
 | `Touch` | [链接](https://opendocs.alipay.com/mini/api/Touch) |
 ## 设备
 ## 定时器
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `clearInterval` | [链接](https://opendocs.alipay.com/mini-game/08urve?pathHash=189afa3d) |
+| `clearTimeout` | [链接](https://opendocs.alipay.com/mini-game/08upey?pathHash=46fec91c) |
+| `setInterval` | [链接](https://opendocs.alipay.com/mini-game/08v38r?pathHash=d29e7653) |
+| `setTimeout` | [链接](https://opendocs.alipay.com/mini-game/08uo7u?pathHash=5ed2888c) |
+
 ## 渲染
 ## 性能
 
