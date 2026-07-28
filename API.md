@@ -27,5 +27,23 @@
 | `my.onError` | [链接](https://opendocs.alipay.com/mini-game/098k8n?pathHash=a32773c0) |
 | `my.onUnhandledRejection` | [链接](https://opendocs.alipay.com/mini-game/88918e2b_my.onUnhandledRejection?pathHash=b1bfb3ef) |
 | `my.offUnhandledRejection` | [链接](https://opendocs.alipay.com/mini-game/c302f268_my.offUnhandledRejection?pathHash=a41360c0) |
+## 跳转
+## 触摸
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.onTouchStart` | [链接](https://opendocs.alipay.com/mini-game/08urvd?pathHash=f1a08050) |
+| `my.onTouchMove` | [链接](https://opendocs.alipay.com/mini/api/my.onTouchMove) |
+| `my.onTouchEnd` | [链接](https://opendocs.alipay.com/mini/api/my.onTouchEnd) |
+| `my.onTouchCancel` | [链接](https://opendocs.alipay.com/mini/api/my.onTouchCancel) |
+| `my.offTouchStart` | [链接](https://opendocs.alipay.com/mini/api/my.offTouchStart) |
+| `my.offTouchMove` | [链接](https://opendocs.alipay.com/mini/api/my.offTouchMove) |
+| `my.offTouchEnd` | [链接](https://opendocs.alipay.com/mini/api/my.offTouchEnd) |
+| `my.offTouchCancel` | [链接](https://opendocs.alipay.com/mini/api/my.offTouchCancel) |
+| `Touch` | [链接](https://opendocs.alipay.com/mini/api/Touch) |
+## 设备
+## 定时器
+## 渲染
+## 性能
 
 # 开放能力 API
