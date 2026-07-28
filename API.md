@@ -75,4 +75,41 @@
 ## 图片
 ## 文件
 
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.getFileSystemManager` | [链接](https://opendocs.alipay.com/mini-game/08ujw2?pathHash=70d47ebb) |
+| `Stats` | [链接](https://opendocs.alipay.com/mini/api/Stats) |
+| `FileSystemManager.access` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.access) |
+| `FileSystemManager.accessSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.accessSync) |
+| `FileSystemManager.appendFile` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.appendFile) |
+| `FileSystemManager.appendFileSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.appendFileSync) |
+| `FileSystemManager.copyFile` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.copyFile) |
+| `FileSystemManager.copyFileSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.copyFileSync) |
+| `FileSystemManager.getFileInfo` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.getFileInfo) |
+| `FileSystemManager.getFileInfoSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.getFileInfoSync) |
+| `FileSystemManager.getSavedFileList` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.getSavedFileList) |
+| `FileSystemManager.mkdir` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.mkdir) |
+| `FileSystemManager.mkdirSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.mkdirSync) |
+| `FileSystemManager.readFile` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.readFile) |
+| `FileSystemManager.readFileSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.readFileSync) |
+| `FileSystemManager.readdir` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.readdir) |
+| `FileSystemManager.readdirSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.readdirSync) |
+| `FileSystemManager.removeSavedFile` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.removeSavedFile) |
+| `FileSystemManager.removeSavedFileSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.removeSavedFileSync) |
+| `FileSystemManager.rename` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.rename) |
+| `FileSystemManager.renameSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.renameSync) |
+| `FileSystemManager.rmdir` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.rmdir) |
+| `FileSystemManager.rmdirSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.rmdirSync) |
+| `FileSystemManager.saveFile` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.saveFile) |
+| `FileSystemManager.stat` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.stat) |
+| `FileSystemManager.statSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.statSync) |
+| `FileSystemManager.unlink` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.unlink) |
+| `FileSystemManager.unlinkSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.unlinkSync) |
+| `FileSystemManager.unzip` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.unzip) |
+| `FileSystemManager.writeFile` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.writeFile) |
+| `FileSystemManager.writeFileSync` | [链接](https://opendocs.alipay.com/mini/api/FileSystemManager.writeFileSync) |
+| `my.detectFileType` | [链接](https://opendocs.alipay.com/mini/api/my.detectFileType)（微信没有，未支持） |
+| `my.saveFileToDisk` | [链接](https://opendocs.alipay.com/mini/api/my.saveFileToDisk)（微信没有，未支持） |
+| `my.openDocument` | [链接](https://opendocs.alipay.com/mini/api/my.openDocument)（微信没有，未支持） |
+
 # 开放能力 API
