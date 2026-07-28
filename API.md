@@ -53,5 +53,26 @@
 
 ## 渲染
 ## 性能
+## 交互
+## 网络
+## WebSocket
+## 音频
+## 存储
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.setStorageSync` | [链接](https://opendocs.alipay.com/mini-game/08upew?pathHash=34661fde) |
+| `my.setStorage` | [链接](https://opendocs.alipay.com/mini/api/my.setStorage) |
+| `my.removeStorageSync` | [链接](https://opendocs.alipay.com/mini/api/my.removeStorageSync) |
+| `my.removeStorage` | [链接](https://opendocs.alipay.com/mini/api/my.removeStorage) |
+| `my.getStorageInfoSync` | [链接](https://opendocs.alipay.com/mini/api/my.getStorageInfoSync) |
+| `my.getStorageInfo` | [链接](https://opendocs.alipay.com/mini/api/my.getStorageInfo) |
+| `my.getStorageSync` | [链接](https://opendocs.alipay.com/mini/api/my.getStorageSync) |
+| `my.getStorage` | [链接](https://opendocs.alipay.com/mini/api/my.getStorage) |
+| `my.clearStorageSync` | [链接](https://opendocs.alipay.com/mini/api/my.clearStorageSync) |
+| `my.clearStorage` | [链接](https://opendocs.alipay.com/mini/api/my.clearStorage) |
+
+## 图片
+## 文件
 
 # 开放能力 API
