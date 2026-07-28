@@ -56,6 +56,21 @@
 ## 交互
 ## 网络
 ## WebSocket
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.closeSocket` | [链接](https://opendocs.alipay.com/mini-game/08uqo1?pathHash=ef8f4cbd) |
+| `my.connectSocket` | [链接](https://opendocs.alipay.com/mini/api/my.connectSocket) |
+| `my.offSocketClose` | [链接](https://opendocs.alipay.com/mini/api/my.offSocketClose) |
+| `my.offSocketError` | [链接](https://opendocs.alipay.com/mini/api/my.offSocketError) |
+| `my.offSocketMessage` | [链接](https://opendocs.alipay.com/mini/api/my.offSocketMessage) |
+| `my.offSocketOpen` | [链接](https://opendocs.alipay.com/mini/api/my.offSocketOpen) |
+| `my.onSocketClose` | [链接](https://opendocs.alipay.com/mini/api/my.onSocketClose) |
+| `my.onSocketError` | [链接](https://opendocs.alipay.com/mini/api/my.onSocketError) |
+| `my.onSocketMessage` | [链接](https://opendocs.alipay.com/mini/api/my.onSocketMessage) |
+| `my.onSocketOpen` | [链接](https://opendocs.alipay.com/mini/api/my.onSocketOpen) |
+| `my.sendSocketMessage` | [链接](https://opendocs.alipay.com/mini/api/my.sendSocketMessage) |
+
 ## 音频
 ## 存储
 
