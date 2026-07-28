@@ -72,6 +72,13 @@
 | `my.sendSocketMessage` | [链接](https://opendocs.alipay.com/mini/api/my.sendSocketMessage) |
 
 ## 音频
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.createInnerAudioContext` | [链接](https://opendocs.alipay.com/mini-game/08uug1?pathHash=a6eb7ef5) |
+| `my.getRecorderManager` | [链接](https://opendocs.alipay.com/mini/api/my.getRecorderManager)（未支持） |
+| `my.getAvailableAudioSources` | [链接](https://opendocs.alipay.com/mini/api/my.getAvailableAudioSources)（未支持） |
+
 ## 存储
 
 | 函数名 | 链接地址 |
