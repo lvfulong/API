@@ -66,6 +66,11 @@
 | `my.setPreferredFramesPerSecond` | [链接](https://opendocs.alipay.com/mini/api/my.setPreferredFramesPerSecond) |
 
 ## 性能
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.triggerGC` | [链接](https://opendocs.alipay.com/mini/api/my.triggerGC) |
+
 ## 交互
 ## 网络
 ## WebSocket
