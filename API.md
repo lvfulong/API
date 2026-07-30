@@ -169,5 +169,11 @@
 ## 位置
 ## 调试
 ## Worker
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.createWorker` | [链接](https://opendocs.alipay.com/mini-game/eb19ec9b_my.createWorker?pathHash=19e3b770) |
+| `Worker` | [链接](https://opendocs.alipay.com/mini/api/Worker) |
+
 ## 分包加载
 # 开放能力 API
