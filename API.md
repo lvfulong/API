@@ -190,3 +190,12 @@
 
 ## 分包加载
 # 开放能力 API
+## 用户授权
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.getAuthCode` | [链接](https://opendocs.alipay.com/mini/api/my.getAuthCode) |
+| `my.getAuthUserInfo` | [链接](https://opendocs.alipay.com/mini-game/08vab1?pathHash=7f335aa9) |
+
+> [!IMPORTANT]
+> `my.getAuthUserInfo` 返回值扩展增加了 `userId` 和 `mobilePhone`。
