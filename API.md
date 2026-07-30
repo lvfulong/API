@@ -113,6 +113,13 @@
 | `my.clearStorage` | [链接](https://opendocs.alipay.com/mini/api/my.clearStorage) |
 
 ## 图片
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.previewImage` | [链接](https://opendocs.alipay.com/mini-game/08unfy?pathHash=957bc8d6) |
+| `my.saveImageToPhotosAlbum` | [链接](https://opendocs.alipay.com/mini/api/my.saveImageToPhotosAlbum) |
+| `my.chooseImage` | [链接](https://opendocs.alipay.com/mini/api/my.chooseImage) |
+
 ## 文件
 
 | 函数名 | 链接地址 |
@@ -151,5 +158,16 @@
 | `my.detectFileType` | [链接](https://opendocs.alipay.com/mini/api/my.detectFileType)（微信没有，未支持） |
 | `my.saveFileToDisk` | [链接](https://opendocs.alipay.com/mini/api/my.saveFileToDisk)（微信没有，未支持） |
 | `my.openDocument` | [链接](https://opendocs.alipay.com/mini/api/my.openDocument)（微信没有，未支持） |
-
+## 订阅
+## 更新管理
+## 小游戏广告
+## 自定义通用菜单
+## 分享
+## 界面
+## 多媒体
+## 数据安全
+## 位置
+## 调试
+## Worker
+## 分包加载
 # 开放能力 API
