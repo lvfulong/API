@@ -72,6 +72,19 @@
 | `my.triggerGC` | [链接](https://opendocs.alipay.com/mini/api/my.triggerGC) |
 
 ## 交互
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.showLoading` | [链接](https://opendocs.alipay.com/mini-game/08uqnz?pathHash=60ce23a6) |
+| `my.alert` | [链接](https://opendocs.alipay.com/mini/api/my.alert) |
+| `my.confirm` | [链接](https://opendocs.alipay.com/mini/api/my.confirm) |
+| `my.hideLoading` | [链接](https://opendocs.alipay.com/mini/api/my.hideLoading) |
+| `my.hideToast` | [链接](https://opendocs.alipay.com/mini/api/my.hideToast) |
+| `my.prompt` | [链接](https://opendocs.alipay.com/mini/api/my.prompt) |
+| `my.showActionSheet` | [链接](https://opendocs.alipay.com/mini/api/my.showActionSheet) |
+| `my.showToast` | [链接](https://opendocs.alipay.com/mini/api/my.showToast) |
+| `my.showModal` | [链接](https://opendocs.alipay.com/mini/api/my.showModal) |
+
 ## 网络
 ## WebSocket
 
