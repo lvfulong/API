@@ -179,6 +179,20 @@
 ## 订阅
 ## 更新管理
 ## 小游戏广告
+### banner广告
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.createBannerAd` | [链接](https://opendocs.alipay.com/mini-game/7334c5e7_my.createBannerAd?pathHash=cf342c4d) |
+| `BannerAd` | [链接](https://opendocs.alipay.com/mini/api/BannerAd) |
+
+### 激励广告
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.createRewardedAd` | [链接](https://opendocs.alipay.com/mini-game/cef940a9_my.createRewardedAd?pathHash=5b968313) |
+| `RewardedAd` | [链接](https://opendocs.alipay.com/mini/api/RewardedAd) |
+
 ## 自定义通用菜单
 ## 分享
 ## 界面
