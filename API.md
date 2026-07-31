@@ -199,3 +199,9 @@
 
 > [!IMPORTANT]
 > `my.getAuthUserInfo` 返回值扩展增加了 `userId` 和 `mobilePhone`。
+## 分享
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.onShareAppMessage` | [链接](https://opendocs.alipay.com/mini-game/08vab2?pathHash=24ae6fef) |
+| `my.showSharePanel` | [链接](https://opendocs.alipay.com/mini/api/my.showSharePanel) |
