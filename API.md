@@ -28,6 +28,11 @@
 | `my.onUnhandledRejection` | [链接](https://opendocs.alipay.com/mini-game/88918e2b_my.onUnhandledRejection?pathHash=b1bfb3ef) |
 | `my.offUnhandledRejection` | [链接](https://opendocs.alipay.com/mini-game/c302f268_my.offUnhandledRejection?pathHash=a41360c0) |
 ## 跳转
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.navigateToMiniProgram` | [链接](https://opendocs.alipay.com/mini-game/08ux3x?pathHash=d4a32a2a) |
+
 ## 触摸
 
 | 函数名 | 链接地址 |
