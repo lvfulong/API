@@ -205,3 +205,8 @@
 | --- | --- |
 | `my.onShareAppMessage` | [链接](https://opendocs.alipay.com/mini-game/08vab2?pathHash=24ae6fef) |
 | `my.showSharePanel` | [链接](https://opendocs.alipay.com/mini/api/my.showSharePanel) |
+## 虚拟支付
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.requestGamePayment` | [链接](https://opendocs.alipay.com/mini-game/0an78p?pathHash=3f1be7cb) |
