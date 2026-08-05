@@ -47,6 +47,19 @@
 | `my.offTouchCancel` | [链接](https://opendocs.alipay.com/mini/api/my.offTouchCancel) |
 | `Touch` | [链接](https://opendocs.alipay.com/mini/api/Touch) |
 ## 设备
+### 键盘
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.showKeyboard` | [链接](https://opendocs.alipay.com/mini-game/08ug7d?pathHash=eae21012) |
+| `my.onKeyboardInput` | [链接](https://opendocs.alipay.com/mini/api/my.onKeyboardInput) |
+| `my.onKeyboardConfirm` | [链接](https://opendocs.alipay.com/mini/api/my.onKeyboardConfirm) |
+| `my.onKeyboardComplete` | [链接](https://opendocs.alipay.com/mini/api/my.onKeyboardComplete) |
+| `my.offKeyboardInput` | [链接](https://opendocs.alipay.com/mini/api/my.offKeyboardInput) |
+| `my.offKeyboardConfirm` | [链接](https://opendocs.alipay.com/mini/api/my.offKeyboardConfirm) |
+| `my.offKeyboardComplete` | [链接](https://opendocs.alipay.com/mini/api/my.offKeyboardComplete) |
+| `my.hideKeyboard` | [链接](https://opendocs.alipay.com/mini/api/my.hideKeyboard) |
+
 ## 定时器
 
 | 函数名 | 链接地址 |
