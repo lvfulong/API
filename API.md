@@ -254,3 +254,73 @@
 | 函数名 | 链接地址 |
 | --- | --- |
 | `my.requestGamePayment` | [链接](https://opendocs.alipay.com/mini-game/0an78p?pathHash=3f1be7cb) |
+| `my.tradePay` | |
+### `my.tradePay`
+
+发起交易支付。该接口为异步接口，由 Android 宿主侧的 `LBPayHandler.tradePay` 实现具体支付逻辑。
+
+> [!IMPORTANT]
+> `my.tradePay` 为扩展接口。
+
+#### 调用方式
+
+```javascript
+my.tradePay({
+  paymentAmount: {
+    currency: "CNY",
+    value: "12.50"
+  },
+  extendedInfo: {},
+  paymentString: "complete-order-string",
+  type: 3,
+  success: function (result) {
+    if (result.resultCode === "9000") {
+      console.log("支付成功", result);
+    } else {
+      console.log("支付结果异常", result);
+    }
+  },
+  fail: function (error) {
+    console.error("支付调用失败", error);
+  },
+  complete: function (result) {
+    console.log("支付调用完成", result);
+  }
+});
+```
+
+#### 参数
+
+| 参数 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| `paymentAmount` | `Object` | 否 | 支付金额信息。 |
+| `paymentAmount.currency` | `String` | 否 | 币种，例如 `CNY`。 |
+| `paymentAmount.value` | `String \| Number` | 否 | 金额；运行时传给宿主时转换为字符串。 |
+| `extendedInfo` | `Object` | 否 | 透传扩展信息；各字段值传给宿主时转换为字符串。 |
+| `paymentString` | `String` | 否 | 与支付类型对应的支付标识、收银台地址或完整订单串。测试示例中为完整订单串。 |
+| `type` | `Number \| String` | 否 | 支付类型，映射见下表。 |
+| `success` | `Function` | 否 | 接口成功回调。注意仍应检查 `resultCode` 判断业务支付结果。 |
+| `fail` | `Function` | 否 | 接口调用失败回调，例如宿主未实现支付或宿主返回错误。 |
+| `complete` | `Function` | 否 | 调用结束回调，无论成功或失败都会执行。 |
+
+#### `type` 类型映射
+
+| 数值 | 枚举名 | 兼容字符串 | 含义 |
+| --- | --- | --- | --- |
+| `0` | `ORDER_ID` | `ORDER_ID`、`orderId` | 订单 ID。 |
+| `1` | `PAYMENT_ID` | `PAYMENT_ID`、`paymentId` | 支付 ID。 |
+| `2` | `CASHIER_URL` | `CASHIER_URL`、`cashierUrl` | 收银台 URL。 |
+| `3` | `ORDER_STRING` | `ORDER_STRING`、`orderString` | 完整订单串。 |
+
+#### success 返回值
+
+| 字段 | 类型 | 说明 |
+| --- | --- | --- |
+| `resultCode` | `String` | 支付结果码；当前测试以 `"9000"` 表示支付成功。 |
+| `resultMessage` | `String` | 可选的支付结果描述，由宿主返回。 |
+
+> [!IMPORTANT]
+> `success` 表示宿主支付调用正常返回，不等同于业务支付一定成功。调用方应继续检查 `resultCode`；当前测试用例仅将字符串 `"9000"` 判定为成功。
+
+> [!NOTE]
+> Android 宿主需要在 `LBPayHandler.tradePay(params, callback)` 中接入真实支付渠道并调用回调。默认实现会返回 `tradePay is not implemented`，小游戏侧进入 `fail`。
