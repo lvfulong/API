@@ -60,6 +60,13 @@
 | `my.offKeyboardComplete` | [链接](https://opendocs.alipay.com/mini/api/my.offKeyboardComplete) |
 | `my.hideKeyboard` | [链接](https://opendocs.alipay.com/mini/api/my.hideKeyboard) |
 
+### 内存不足警告
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.onMemoryWarning` | [链接](https://opendocs.alipay.com/mini-game/2b435749_my.onMemoryWarning?pathHash=51ce35c1) |
+| `my.offMemoryWarning` | [链接](https://opendocs.alipay.com/mini/api/my.offMemoryWarning) |
+
 ## 定时器
 
 | 函数名 | 链接地址 |
@@ -104,6 +111,11 @@
 | `my.showModal` | [链接](https://opendocs.alipay.com/mini/api/my.showModal) |
 
 ## 网络
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.request` | [链接](https://opendocs.alipay.com/mini-game/08uy1c?pathHash=79945623) |
+
 ## WebSocket
 
 | 函数名 | 链接地址 |
