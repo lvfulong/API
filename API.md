@@ -242,7 +242,71 @@
 | `my.getAuthUserInfo` | [链接](https://opendocs.alipay.com/mini-game/08vab1?pathHash=7f335aa9) |
 
 > [!IMPORTANT]
+> `my.getAuthCode` 入参扩展增加了 `clientid`、`authclientid`、`appId` 和 `extraData`。
+>
 > `my.getAuthUserInfo` 返回值扩展增加了 `userId` 和 `mobilePhone`。
+
+### `my.getAuthCode`
+
+获取授权码。该接口为异步接口，除支付宝标准的 `scopes` 参数外，支持向宿主透传客户端及应用标识和扩展数据。
+
+#### 调用方式
+
+```javascript
+my.getAuthCode({
+  scopes: ["auth_base", "auth_user"],
+  clientid: "demo-client-id",
+  authclientid: "demo-auth-client-id",
+  appId: "2026081300000001",
+  extraData: {
+    scene: "auth-code",
+    nested: {
+      enabled: true
+    }
+  },
+  success: function (result) {
+    console.log("获取授权码成功", result.authCode);
+  },
+  fail: function (error) {
+    console.error("获取授权码失败", error);
+  },
+  complete: function (result) {
+    console.log("获取授权码完成", result);
+  }
+});
+```
+
+#### 属性
+
+| 属性 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| `scopes` | `String \| String[]` | 否 | 授权范围；未传时默认为 `auth_base`。 |
+| `clientid` | `String` | 否 | 客户端标识，原样传递给宿主。 |
+| `authclientid` | `String` | 否 | 授权客户端标识，原样传递给宿主。 |
+| `appId` | `String` | 否 | 应用标识，原样传递给宿主。 |
+| `extraData` | `Object` | 否 | 扩展数据，支持嵌套对象并原样传递给宿主。 |
+| `success` | `Function` | 否 | 调用成功回调。 |
+| `fail` | `Function` | 否 | 调用失败回调。 |
+| `complete` | `Function` | 否 | 调用完成回调，无论成功或失败都会执行。 |
+
+#### success 返回值
+
+```json
+{
+  "authCode": "0b9a9c214b55447986a6af2d8a0bUC09",
+  "authSuccessScopes": [
+    "auth_base"
+  ],
+  "authErrorScopes": {}
+}
+```
+
+| 属性 | 类型 | 说明 |
+| --- | --- | --- |
+| `authCode` | `String` | 授权码。 |
+| `authSuccessScopes` | `Array` | 本次授权成功的 scope 列表。 |
+| `authErrorScopes` | `Object` | 失败的授权类型，key 是授权失败的 scope，value 是对应的错误码。 |
+
 ## 分享
 
 | 函数名 | 链接地址 |
