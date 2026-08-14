@@ -242,19 +242,20 @@
 | `my.getAuthUserInfo` | [链接](https://opendocs.alipay.com/mini-game/08vab1?pathHash=7f335aa9) |
 
 > [!IMPORTANT]
-> `my.getAuthCode` 入参扩展增加了 `clientid`、`authclientid`、`appId` 和 `extraData`。
+> `my.getAuthCode` 入参扩展增加了 `scene`、`clientid`、`authclientid`、`appId` 和 `extraData`。
 >
 > `my.getAuthUserInfo` 返回值扩展增加了 `userId` 和 `mobilePhone`。
 
 ### `my.getAuthCode`
 
-获取授权码。该接口为异步接口，除支付宝标准的 `scopes` 参数外，支持向宿主透传客户端及应用标识和扩展数据。
+获取授权码。该接口为异步接口，除支付宝标准的 `scopes` 参数外，支持向宿主透传场景值、客户端及应用标识和扩展数据。
 
 #### 调用方式
 
 ```javascript
 my.getAuthCode({
   scopes: ["auth_base", "auth_user"],
+  scene: "auth-code-test",
   clientid: "demo-client-id",
   authclientid: "demo-auth-client-id",
   appId: "2026081300000001",
@@ -281,6 +282,7 @@ my.getAuthCode({
 | 属性 | 类型 | 必填 | 说明 |
 | --- | --- | --- | --- |
 | `scopes` | `String \| String[]` | 否 | 授权范围；未传时默认为 `auth_base`。 |
+| `scene` | `String` | 否 | 授权场景值，原样传递给宿主。 |
 | `clientid` | `String` | 否 | 客户端标识，原样传递给宿主。 |
 | `authclientid` | `String` | 否 | 授权客户端标识，原样传递给宿主。 |
 | `appId` | `String` | 否 | 应用标识，原样传递给宿主。 |
