@@ -390,3 +390,28 @@ my.tradePay({
 
 > [!NOTE]
 > Android 宿主需要在 `LBPayHandler.tradePay(params, callback)` 中接入真实支付渠道并调用回调。默认实现会返回 `tradePay is not implemented`，小游戏侧进入 `fail`。
+
+## 渠道码
+
+### `my.getChannelCode`
+
+同步获取宿主提供的渠道码。
+
+> [!IMPORTANT]
+> `my.getChannelCode` 为扩展接口。
+
+#### 调用方式
+
+```javascript
+const channelCode = my.getChannelCode();
+```
+
+#### 参数
+
+无。
+
+#### 返回值
+
+| 类型 | 说明 |
+| --- | --- |
+| `String` | 宿主返回的渠道码。 |
