@@ -11,6 +11,11 @@
 | `my.isCollected` | [链接](https://opendocs.alipay.com/mini-game/6d0b314f_my.isCollected?pathHash=756d2dfa) |
 | `my.isIDE` | [链接](https://opendocs.alipay.com/mini-game/b2b4ee2a_my.isIDE?pathHash=d6dddb68) |
 ## 系统
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.getMenuButtonBoundingClientRect` | [链接](https://opendocs.alipay.com/mini/api/my.getMenuButtonBoundingClientRect) |
+
 ## 生命周期
 
 | 函数名 | 链接地址 |
