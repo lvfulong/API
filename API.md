@@ -65,6 +65,13 @@
 | `my.offKeyboardComplete` | [链接](https://opendocs.alipay.com/mini/api/my.offKeyboardComplete) |
 | `my.hideKeyboard` | [链接](https://opendocs.alipay.com/mini/api/my.hideKeyboard) |
 
+
+### 剪切板
+
+| 函数名 | 链接地址 |
+| --- | --- |
+| `my.getClipboard` | [链接](https://opendocs.alipay.com/mini-game/08ug7c?pathHash=ed9be046) |
+| `my.setClipboard` | [链接](https://opendocs.alipay.com/mini-game/08uiqa?pathHash=f968cde9) |
 ### 内存不足警告
 
 | 函数名 | 链接地址 |
